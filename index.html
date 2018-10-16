@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta property="og:title"  content="告別新鮮人！ B05的主題地圖展"/>
+  <meta property="og:site_name"  content="告別新鮮人！ B05的主題地圖展"/>
+  <meta property="og:url" content="https://homepage.ntu.edu.tw/~f04228002/carto2017/CartoCompetition.html"/>
+  <meta property="og:description" content="國立台灣大學地理環境資源學系  105-2地圖學及實習  地圖競賽成果展"/>
+  <meta property="og:image" content="https://homepage.ntu.edu.tw/~f04228002/carto2017/Media/Logos/BirdLogo.png"/>
+
+
+
+  <title>105-2 CartographyContest</title>
+  <link rel="shortcut icon" href="Media/Logos/wenlab Logo2.png"/>
+
+
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>-->
+
+  <link rel="stylesheet" href="HomepageStyle.css">
+
+  <script src="HomepageScript.js"></script>
+
+
+
+</head>
+
+<body>
+  <div class="container">
+  <div id=homeNav class="navbar navbar-default">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="CartoCompetition.html" style="padding:2.5px 2.5px;">
+        <span><img src="Media/Logos/BirdLogo.png" width="70px" height="50px">
+          告別新鮮人！ B05的主題地圖展</span>
+      </a>
+
+      <!-- 按鈕 -->
+      <button type="button" class="navbar-toggle"
+              data-toggle="collapse" data-target="#mynav">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div id="mynav" class="navbar-collapse collapse">
+      <ul class="navbar-nav nav">
+        <li><a href="#" class="dropdown-toggle unhoverable" data-toggle="dropdown" ><!-- 選單項目 2 -->
+          <span class="glyphicon glyphicon-blackboard "></span>
+          <span class='title'>&nbsp;展覽簡介</span><b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li id="reason"><a href="#"><span class="glyphicon glyphicon-grain "></span>
+              <span class=''>&nbsp;策展緣起</span></a></li>
+            <li id="design"><a href="#"><span class="glyphicon glyphicon-pencil "></span>
+              <span class=''>&nbsp;設計理念</span></a></li>
+            <li id="message"><a href="#"><span class="glyphicon glyphicon-comment "></span>
+              <span class=''>&nbsp;老師和助教的話</span></a></li>
+          </ul>
+
+        </li>
+
+        <li><a href="#" class="dropdown-toggle unhoverable" data-toggle="dropdown" ><!-- 選單項目 3 -->
+          <span class="glyphicon glyphicon-picture "></span>
+          <span class='title'>&nbsp;各組作品欣賞</span><b class="caret "></b></a>
+          <ul class="dropdown-menu">
+            <li class='navbar-text'><span class="glyphicon glyphicon-cloud "></span>
+              <span class=''>&nbsp;天氣與交通</span></li>
+            <li id="team5"><a href="#">&nbsp;&nbsp;<span class=''>人生好難，搭車不難</span></a></li>
+            <li id="team1"><a href="#">&nbsp;&nbsp;<span class=''>北風與金門</span></a></li>
+            <li id="team11"><a href="#">&nbsp;&nbsp;<span class=''>天氣不好就要搭捷運？</span></a></li>
+            <li id="team13"><a href="#">&nbsp;&nbsp;<span class=''>懸浮微粒PM2.5時空分布</span></a></li>
+            <li role="separator" class="divider"></li>
+
+            <li class='navbar-text'><span class="glyphicon glyphicon-home "></span>
+              <span class=''>&nbsp;生活與遊憩</span></li>
+            <li id="team4"><a href="#">&nbsp;&nbsp;<span class=''>Work Hard, Retire Harder</span></a></li>
+            <li id="team7"><a href="#">&nbsp;&nbsp;<span class=''>台灣常見農產品項進口</span></a></li>
+            <li id="team3"><a href="#">&nbsp;&nbsp;<span class=''>放映台北</span></a></li>
+            <li id="team9"><a href="#">&nbsp;&nbsp;<span class=''>台大周邊打工地圖</span></a></li>
+            <li role="separator" class="divider"></li>
+
+            <li class='navbar-text'><span class="glyphicon glyphicon-globe "></span>
+              <span class=''>&nbsp;文化與自然</span></li>
+            <li id="team12"><a href="#"><span class=''>&nbsp;&nbsp;Run in the Jungle</span></a></li>
+            <li id="team6"><a href="#"><span class=''>&nbsp;&nbsp;自燃，不自然</span></a></li>
+            <li id="team10"><a href="#"><span class=''>&nbsp;&nbsp;鯨奇三超人</span></a></li>
+            <li id="team2"><a href="#"><span class=''>&nbsp;&nbsp;太魯閣戰爭軍事路線圖</span></a></li>
+          </ul>
+        </li>
+
+        <li id="lab"><a href="#" class='unhoverable'><span class="glyphicon glyphicon-list-alt "></span>
+          <span class='title'>&nbsp;實習成果</span></a></li>
+        <li id="staff"><a href="#" class='unhoverable'><span class="glyphicon glyphicon-info-sign "></span>
+          <span class='title'>&nbsp;關於我們</span></a></li>
+      </ul>
+    </div>
+
+  </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div id="majorContent">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-0 col-md-1 sidebar" id='left-side'>
+        </div>
+
+        <div class="col-xs-12 col-md-10" id='middle-side'>
+          <div id="photoCarousel" class="carousel slide vertical" data-ride="carousel" data-interval="3000">
+            <!-- Indicators 瀏覽控制 -->
+            <ol class="carousel-indicators">
+              <li data-target="#photoCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#photoCarousel" data-slide-to="1"></li>
+              <li data-target="#photoCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- 建立相片清單 -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="Media/Banner01.jpg">
+              </div>
+              <div class="item">
+                <img src="Media/Banner02.png">
+              </div>
+              <div class="item">
+                <img src="Media/Banner03.png">
+              </div>
+            </div>
+
+            <!-- 上一張/下一張控制 -->
+            <a class="left carousel-control" href="#photoCarousel" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#photoCarousel" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right"></span></a>
+          </div>
+        </div>
+
+        <div class="col-xs-0 col-md-1 sidebar" id='right-side'>
+        </div>
+      </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div>
+    <h2><span>&nbsp;&nbsp;得獎作品&nbsp;&nbsp;</span></h2>
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <div style="background:#0B0B25">
+    <div class="container">
+      <br>
+      <div class="row">
+
+        <div class="col-xs-12 col-md-4">
+          <h3 class="posterLevel" id="posterLevel01">一等獎</h3>
+          <a href="#top"><img src="Media/Squares/Square01-2.jpg" id="homePoster01" class="img-responsive center-block img-circle"></a>
+          <h4>人生好難，搭車不難</h4>
+          <p>想走遍大台北的各個角落嗎？來一趟計程車旅遊吧，幫你整理預算可及的所有地方！</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <h3 class="posterLevel" id="posterLevel02">二等獎</h3>
+          <a href="#top"><img src="Media/Squares/Square02-2.jpg" id="homePoster02" class="img-responsive center-block img-circle"></a>
+          <h4>Run in the Jungle</h4>
+          <p>一起來跑山吧！感受土地的呼吸與脈動，台灣的山林之美走過才知道。哪條路線最適合也最吸引你呢？</p>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <h3 class="posterLevel" id="posterLevel03">三等獎</h3>
+          <a href="#top"><img src="Media/Squares/Square03-2.jpg" id="homePoster03" class="img-responsive center-block img-circle"></a>
+          <h4>自燃。不自然</h4>
+          <p>又一座古蹟失火了！？似乎不太尋常？都市傳說裡難道真的有什麼秘密，帶你一探究竟！</p>
+        </div>
+
+      </div>
+      <br>
+    </div>
+    </div>
+
+    <div style="background:#0B0B25">
+      <div class="container">
+        <br>
+        <div class="row">
+
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h3 class="posterLevel" id="posterLevel04">佳作</h3>
+            <a href="#top"><img src="Media/Squares/Square04-2.jpg" id="homePoster04" class="img-responsive center-block img-circle"></a>
+            <h4>Work Hard, Retire Harder</h4>
+            <p>要邁入人生另一個階段，退休生活也好重要。進來尋找自己的退休寶地，養老生活開心又健康！</p>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+            <h3 class="posterLevel" id="posterLevel05">佳作</h3>
+            <a href="#top"><img src="Media/Squares/Square05-2.jpg" id="homePoster05" class="img-responsive center-block img-circle"></a>
+            <h4>台灣常見農產品項進口</h4>
+            <p>全球化的世代下，許多食物可能橫跨了半個地球才到手中。桌上的食物從哪裡來？透過地圖一目了然。</p>
+          </div>
+
+          <div class="col-xs-12 col-md-4">
+            <h3 class="posterLevel" id="posterLevel06">佳作</h3>
+            <a href="#top"><img src="Media/Squares/Square06-2.jpg" id="homePoster06" class="img-responsive center-block img-circle"></a>
+            <h4>鯨奇三超人</h4>
+            <p>想為海洋保育盡一份心力！付諸行動的同時，也一起好好認識鯨魚吧，帶你了解鯨魚的旅程。</p>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+  </div>
+
+
+  <div id="homeFoot">
+    <hr>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <a href="http://wenlab.geog.ntu.edu.tw/" target="_blank">
+            <img id="labLogo"src="Media/Logos/WenlabLogo.jpg"
+            class="img-responsive center-block" width="200px" height="100px"></a>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <a href="http://www.geog.ntu.edu.tw/tw/" target="_blank">
+            <img id="GeogLogo"src="Media/Logos/GeogLogo.png"
+            class="img-responsive center-block"></a>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+          <a href="http://www.ntu.edu.tw/" target="_blank">
+            <img id="SchoolLogo"src="Media/Logos/NTULogo.png"
+            class="img-responsive center-block"  width="200px" height="100px"></a>
+        </div>
+      </div>
+    </div>
+    <br>
+  </div>
+</body>
+</html>

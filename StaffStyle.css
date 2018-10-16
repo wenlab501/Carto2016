@@ -1,0 +1,23 @@
+a p h2 h3 h4 {font-family:微軟正黑體; color:#483B1B;}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid #757780;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+h2 span {
+  background:#0B0B25;
+  padding:0 10px;
+}
+
+.staff_discription {
+  font-size:0.75em;
+  font-family:微軟正黑體;
+}
+
+ul {
+  color: #FFFFFF;
+}

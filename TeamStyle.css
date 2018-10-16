@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+#sidebar {
+  margin: 0;
+  padding: 0px 0px;
+  background: #0B0B25;
+  color: #E9485C;
+  position: fixed; /* Make it stick, even on scroll */
+}
+
+
+#sidebar.affix {padding:0px 0px; border: none; background: #0B0B25;}
+.feather {text-decoration:none;}
+.feather_img {text-decoration:none;}
+.list-content {/*display:none;*/ color: #444554; font-size:1.15em;text-decoration:none;}
+/*#memberPhoto {width: 50%;}*/
+
+.Prize {width:50px; height:50px}
+
+h1{
+  text-align: center;
+}
+
+h2 {
+   width: 100%;
+   text-align: center;
+   border-top: 1px solid #757780;
+   line-height: 0.1em;
+   margin: 10px 0 20px;
+}
+
+h2 span {
+    background:#0B0B25;
+    padding:0 10px;
+}
+
+.author{
+  text-align: center;
+}
+
+.comment{
+  font-size:1.25em;
+  font-family:'標楷體';
+  font-style:italic;
+}
+
+.commenter{
+  font-size:1.25em;
+  float:right;
+}
+
+.subtitle{
+  font-weight:bold;
+  font-size:1.5em;
+}
+.discription{
+  font-size:1.25em;
+}
+
+
+
+#to_web{
+  font-size:1.25em;
+  float:right;
+}
+/*#feather1 {
+  filter: drop-shadow(6px 6px gray);
+  -webkit-filter: drop-shadow(6px 6px gray);
+}*/
+/*#right-side {border-style:solid;border-left-color:#F8F8F8;
+  border-top-color:#FFFFFF;border-bottom-color:#FFFFFF;
+  border-right-color:#FFFFFF;}*/
+
+@media (max-width: 1000px){
+  #right-side {border-left-color:#FFFFFF;}
+  #sidebar.affix {display:none;}
+  #sidebar-test {display:none;}
+}
+/*
+@media (min-width: 768px) {
+  .bs-sidebar.affix {
+    /*width: 150px;
+    top: 50px;
+    border-bottom: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .bs-sidebar.affix {
+    /*width: 200px;
+
+    top: 80px;
+    border-bottom: 80px;
+  }
+}
+*/
+@media (min-width: 1000px) {
+  /*#sidebar.affix {
+    width: 80px;
+    border-top: 70px;
+    border-bottom: 70px;
+  }*/
+  #sidebar {
+    width: 6%;
+    height: 40%;
+    border-top: 70px;
+    border-bottom: 70px;
+  }
+  .list-content{
+    font-size:0.9em;
+  }
+  .feather_img{
+    width:14%;
+    float: left;
+  }
+}
+
+
+
+@media (min-width: 1200px) {
+  /*#sidebar.affix {
+    width: 90px;
+    border-top: 70px;
+    border-bottom: 70px;
+  }*/
+  #sidebar {
+    width: 8%;
+    height: 60%;
+    border-top: 70px;
+    border-bottom: 70px;
+  }
+  .list-content{
+    font-size:1.2em;
+  }
+  .feather_img{
+    width:16%;
+    float: left;
+  }
+}

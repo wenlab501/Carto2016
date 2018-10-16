@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+#theTab {border:none; background:#0B0B25; font-family:"微軟正黑體"; color:#E9485C;}
+.ui-tabs .ui-tabs-nav {
+  background: #0B0B25;
+  /*border:none;*/
+}
+#theTab - centre .ui-tabs-nav {
+  height: 2.35em;
+  text-align: center;
+}
+#theTab - centre .ui-tabs-nav {
+  display: inline-block;
+  float: none;
+  top: 0px;
+  margin: 0em;
+  padding-bottom: 0px;
+}
+
+h3 {
+  color:#E9485C;
+}
+
+.tab-button {
+  background:#0B0B25;
+}
+
+.button-word{
+  font-family:"微軟正黑體";
+  color:#E9485C;
+}
+/*
+.ui-tabs .ui-tabs-panel {
+  background: blue;
+}*/

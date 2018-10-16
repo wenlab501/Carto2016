@@ -1,0 +1,25 @@
+
+≠I¥∫√C¶‚°G#0B0B25
+§Â¶r√C¶‚°G#E9485C
+
+
+http://homepage.ntu.edu.tw/~f04228002/carto2017/CartoCompetition.html
+
+http://wenlab.geog.ntu.edu.tw/carto2016/CartoCompetition.html
+
+http://wenlab.geog.ntu.edu.tw/carto2017
+
+
+sudo cp -R ~/Workspaces/website/carto2016/* /var/www/html/carto2016/
+
+
+
+
+
+ftp: 
+protocol sftp
+host 140.112.64.62 
+port 2222 
+user www 
+pw wen65847
+dir html/carto2017

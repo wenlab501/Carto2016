@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+.words {
+  font-size:1.25em;
+  color: #FFFFFF;
+}
+
+.name {
+  font-size:1.25em;
+  float:right
+}
+
+.center-words {
+  font-size:1.25em;
+  text-align:center;
+  color: #FFFFFF;
+}
